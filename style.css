@@ -1,0 +1,13 @@
+fieldset {
+  border: 1px solid black;
+  float: left;
+  margin-right: 4px;
+  width: 400px;
+
+}
+
+textarea {
+  height: 100px;
+  width: 400px;
+
+}
