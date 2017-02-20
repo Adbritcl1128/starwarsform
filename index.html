@@ -3,37 +3,38 @@
 <head>
   <meta charset="utf-8">
   <title>Basic Form</title>
-  <link href="style.css" rel='stylesheet' type='text/css'
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header>
   <h2>Force User Sign Up Form</h2>
 </header>
+<main>
   <fieldset>
   <legend>Basic Info</legend>
     <aside>
       <h3>Full Name</h3>
-      <label for= 'full name'></label>
-      <input type="text" id='full name' name="login" placeholder='full name' required>
+      <label for= "fullname"></label>
+      <input type="text" id="fullname" name="login" placeholder="fullname" required>
     </aside>
       <h3>Profile Pic</h3>
-      <input type='file' id='avatar'>
+      <input type="file" id="avatar">
     <aside>
       <h3>Email</h3>
-      <label for= 'Email'>Email:</label>
-      <input type="email" id='Email' name="login" placeholder='Email' required>
+      <label for= "Email">Email:</label>
+      <input type="email" id="Email" name="login" placeholder="Email" required>
     </aside>
     <aside>
       <h3>Side</h3>
-      <input type='radio' name='favorite-side' value='light'>
-      <label for='favorite-side-light'>light</label>
-      <input type='radio'name='favorite-side' id='favorite-side-dark' value='dark'
-      label for='favorite-side-dark'>dark</label>
+      <input type="radio" name="favorite-side" value="light">
+      <label for="favorite-side-light">light</label>
+      <input type="radio"name="favorite-side" id="favorite-side-dark" value="dark"
+      label for="favorite-side-dark">dark</label>
     </aside>
     <aside>
       <h3>Origin Story</h3>
 
-    <textarea id='Origin Story' name='about me'>
+    <textarea id="OriginStory" name="aboutme">
 
     </textarea>
     </aside>
@@ -42,36 +43,36 @@
       <legend>Abilities</legend>
       <h3>Lightsaber Color</h3>
       <select>
-        <option value='red'>red</option>
-        <option value='purple'>purple</option>
-        <option value='green'>green</option>
-        <option value='blue'>blue</option>
+        <option value="red">red</option>
+        <option value="purple">purple</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
 
       </select>
       <h3>How many objects can you levitate at once?</h3>
     <aside>
-  <label for= "How many objects can you levitate at once?"</label>
-  <input type="number" min="0" id='How many objects can you levitate at once?' name="How many objects can you levitate at once?" required>
+  <label for= "Howmanyobjectscanyoulevitateatonce?"</label>
+  <input type="number" min="0" id="Howmanyobjectscanyoulevitateatonce?" name="Howmanyobjectscanyoulevitateatonce?" required>
 </aside>
         <h3>Favorite Ability</h3>
     <aside>
-  <label for=Favorite Ability:</label>
-  <input type="text" id='Favorite Ability' name="login" placeholder='Precognition' required>
+  <label for=FavoriteAbility:</label>
+  <input type="text" id="FavoriteAbility" name="login" placeholder="Precognition" required>
 </aside>
     <aside>
         <h3>Pilot Experience</h3>
-        <input type='checkbox' name='Pilot Experience' value='speeder'>
-        <label for='Pilot Experience'>speeder</label>
-        <input type='checkbox'name='Pilot Experience' id='Pilot Experience' value='transport'
-        label for='Pilot Experience'>transport</label>
-        <input type='checkbox'name='Pilot Experience' id='Pilot Experience' value='X-Wing'
-        label for='Pilot Experience'>X-Wing</label>
-        <input type='checkbox'name='Pilot Experience' id='Pilot Experience' value='Tie Fighter'
-        label for='Pilot Experience'>Tie Fighter</label>
-        <input type='checkbox'name='Pilot Experience' id='Pilot Experience' value='Starship'
-        label for='Pilot Experience'>Starship</label>
-        <input type='checkbox'name='Pilot Experience' id='Pilot Experience' value='Bantha'
-        label for='Pilot Experience'>Bantha</label>
+        <input type="checkbox" name="PilotExperience" value="speeder">
+        <label for="PilotExperience">speeder</label>
+        <input type="checkbox"name="PilotExperience" id="PilotExperience" value="transport">
+        <label for="PilotExperience">transport</label>
+        <input type="checkbox"name="PilotExperience" id="PilotExperience" value="X-Wing">
+        <label for="Pilot Experience">X-Wing</label>
+        <input type='checkbox'name="PilotExperience" id="PilotExperience" value="TieFighter">
+        <label for="Pilot Experience">Tie Fighter</label>
+        <input type='checkbox'name="Pilot Experience" id="PilotExperience" value="Starship">
+        <label for="Pilot Experience">Starship</label>
+        <input type="checkbox"name="Pilot Experience" id="PilotExperience" value="Bantha">
+        <label for="Pilot Experience">Bantha</label>
     </aside>
 </fieldset>
 <fieldset>
@@ -80,31 +81,33 @@
     <aside>
         <h3> Desired Mentor</h3>
         <label for=Desired Mentor:</label>
-        <input type="text" id='Desired Mentor' name="login" placeholder='Yoda' required>
+        <input type="text" id="DesiredMentor" name="login" placeholder="Yoda" required>
     </aside>
     <aside>
         <h3>Application Date</h3>
-        <input type='date' name='Application Date'>
-        <label for='date'</label>
+        <input type="date" name="ApplicationDate">
+        <label for="date"</label>
     </aside>
 
     <aside>
         <h3>Application Password</h3>
-        <label for='Application Password'></label>
-        <input type='password' id='password' name='Application Password'>
+        <label for="ApplicationPassword"></label>
+        <input type="password" id="password" name="ApplicationPassword">
     <aside/>
 
     <aside>
         <h3>How do I get to the dark side?</h3>
-        <textarea id='Origin Story' name='How do you get to the dark side?'>
+        <textarea id="OriginStory" name="Howdoyougettothedarkside?">
 
         </textarea>
     </aside>
-        <input type= "reset" value='Start Over'>
-        <input type= "submit" value='Apply'>
+        <input type= "reset" value="StartOver">
+        <input type= "submit" value="Apply">
 
 
 
 
-</fieldset>
+  </fieldset>
+</main>
 </body>
+</html>
