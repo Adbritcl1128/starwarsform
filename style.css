@@ -12,8 +12,10 @@ textarea {
 
 }
 
-h3 {
-  margin: 8px;
-  text-align: left;
-  padding-right: 5px;
+aside {
+  font-weight: bold;
+}
+
+article {
+  font-weight: normal;
 }
